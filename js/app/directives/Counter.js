@@ -7,7 +7,7 @@ function Counter() {
 				'<div>Current count: {{ ctrl.count }}</div>',
 			'</div>'
 		].join(''),
-		require 'counter',
+		require: 'counter',
 		controller: function ($scope) {
 			this.count = 0;
 		},
